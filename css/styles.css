@@ -66,8 +66,8 @@ h1,h2,h3,h4,h5,h6{font-family:'Space Grotesk',sans-serif}
 
 /* ===== ACCORDION ===== */
 .acc-body{max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.16,1,.3,1),padding .3s}
-.acc-item.open .acc-body{max-height:300px;padding-top:12px}
-.acc-item.open .acc-icon{transform:rotate(180deg)}
+.acc-item.open .acc-body, .mob-acc.open .acc-body{max-height:300px;padding-top:12px}
+.acc-item.open .acc-icon, .mob-acc.open .acc-icon{transform:rotate(180deg)}
 .acc-icon{transition:transform .3s}
 
 /* Cards */
